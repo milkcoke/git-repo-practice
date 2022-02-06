@@ -3,6 +3,7 @@ export class Calculator {
     #result : number = 0;
 
     constructor() {
+        this.result = 0;
         console.log('계산기 생성!');
     }
 
